@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Cardano Client Lib](README.md)
 * [Support this project](support-this-project.md)

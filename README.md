@@ -1,12 +1,12 @@
 ---
-description: Overview
+description: A client library for Cardano in Java
 ---
 
-# Overview
-
-## cardano-client-lib
+# Cardano Client Lib
 
 A client library for Cardano in Java. For some features like transaction signing and address generation, it currently uses [cardano-serialization-lib](https://github.com/Emurgo/cardano-serialization-lib) rust library though JNI. The library bundles the platform specific binaries of cardano-serialization-lib. You can check the currently supported operating systems below. This dependency will be removed in the future release.
+
+**GitHub:** [https://github.com/bloxbean/cardano-client-lib](https://github.com/bloxbean/cardano-client-lib)
 
 **Note (Alonzo Support - Known issues) :** The Alonzo related changes are currently **under development**. But the existing features like transfer transaction, token minting etc should work as long as you are using Utxos not specific to smart contract (or, data\_hash field is null in Utxo).
 
@@ -80,14 +80,14 @@ Other backend like Cardano-wallet will be added in future release.
         <dependency>
             <groupId>com.bloxbean.cardano</groupId>
             <artifactId>cardano-client-lib</artifactId>
-            <version>0.1.2</version>
+            <version>0.1.5</version>
         </dependency>
 ```
 
 * For Gradle, add the following dependency to build.gradle
 
 ```
-compile 'com.bloxbean.cardano:cardano-client-lib:0.1.2'
+compile 'com.bloxbean.cardano:cardano-client-lib:0.1.5'
 ```
 
 #### Account API Usage
