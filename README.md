@@ -4,11 +4,15 @@ description: A client library for Cardano in Java
 
 # Cardano Client Lib
 
-A client library for Cardano in Java. For some features like transaction signing and address generation, it currently uses [cardano-serialization-lib](https://github.com/Emurgo/cardano-serialization-lib) rust library though JNI. The library bundles the platform specific binaries of cardano-serialization-lib. You can check the currently supported operating systems below. This dependency will be removed in the future release.
+A client library for [Cardano](https://cardano.org) in Java. For some features like transaction signing and address generation, it currently uses [cardano-serialization-lib](https://github.com/Emurgo/cardano-serialization-lib) rust library though JNI. The library bundles the platform specific binaries of cardano-serialization-lib. You can check the currently supported operating systems below.
 
 **GitHub:** [https://github.com/bloxbean/cardano-client-lib](https://github.com/bloxbean/cardano-client-lib)
 
-**Note (Alonzo Support - Known issues) :** The Alonzo related changes are currently **under development**. But the existing features like transfer transaction, token minting etc should work as long as you are using Utxos not specific to smart contract (or, data\_hash field is null in Utxo).
+**GitHub :** [https://github.com/bloxbean/cardano-client-lib](https://github.com/bloxbean/cardano-client-lib)
+
+**Latest Stable Version** : [0.1.5](https://github.com/bloxbean/cardano-client-lib/releases/tag/v0.1.5)
+
+**Preview Version** (Alonzo changes & Raspberry pi Support) : [0.2.0-preview1](https://github.com/bloxbean/cardano-client-lib/releases/tag/v0.2.0-preview1)
 
 ### Supported Operating Systems
 
@@ -26,6 +30,10 @@ For another platform, please create a request [here](https://github.com/bloxbean
 * [Cardano-client-lib : A Java Library to interact with Cardano - Part I](https://medium.com/p/83fba0fee537)
 * [Cardano-client-lib: Transaction with Metadata in Java - Part II](https://medium.com/p/fa34f403b90e)
 * [Cardano-client-lib: Minting a new Native Token in Java - Part III](https://medium.com/p/1a94a21cfeeb)
+
+**Examples**
+
+[Cardano-client-lib examples repository](https://github.com/bloxbean/cardano-client-examples/)
 
 **Features**
 
@@ -368,10 +376,14 @@ export BF_PROJECT_ID=<Blockfrost Project Id>
 * [EASY1 Stake Pool Raffles](https://raffles.easystaking.online)
 * [Cardanotales](https://cardanotales.com)
 * [Cardano Fans Raffles](https://cardano.fans)
+* [Cardano Fans Donation App](https://github.com/Cardano-Fans/crfa-cardano-donation-app)
 * [adadomains.io](https://www.adadomains.io)
+* [ADAM - ADA Monitor APP](https://play.google.com/store/apps/details?id=com.esodot.andro.monitor)
 
 ***
 
 **If this project helps you reduce time to develop on Cardano or if you just want to support this project, you can delegate to our pool:**
 
 [BLOXB](https://www.bloxbean.com/cardano-staking/)
+
+[Support this project](https://cardano-client.bloxbean.com/support-this-project)
