@@ -1,4 +1,4 @@
-# cardano-client-lib
+![Cardano Client Lib](images/ccl_logo_large.png)
 
 A client library for Cardano in Java. This library simplifies the interaction with Cardano blockchain from a Java application.
 
