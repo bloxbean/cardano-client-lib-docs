@@ -1,12 +1,13 @@
-![Cardano Client Lib](images/ccl_logo_large.png)
+[//]: # (<img src="images/logo_no_bg.svg" alt="drawing" width="600"/>)
+
+# Cardano Client Lib
+---
 
 A client library for Cardano in Java. This library simplifies the interaction with Cardano blockchain from a Java application.
 
-**Latest Beta**: [0.2.0-beta3](https://github.com/bloxbean/cardano-client-lib/releases/tag/v0.2.0-beta3) (Pure Java)
+A client library for Cardano in Java. This library simplifies the interaction with Cardano blockchain from a Java application.
 
-**Previous Stable Version** : [0.1.5](https://github.com/bloxbean/cardano-client-lib/releases/tag/v0.1.5) (Uses rust lib)
-
-[v0.1.5 More details](README-0_1_5.md)
+**Latest Stable Version**: [0.2.0](https://github.com/bloxbean/cardano-client-lib/releases/tag/v0.2.0)
 
 **Posts**
 - [Cardano-client-lib : A Java Library to interact with Cardano - Part I](https://medium.com/p/83fba0fee537)
@@ -32,19 +33,25 @@ A client library for Cardano in Java. This library simplifies the interaction wi
 - CBOR serialization of transaction
 - Transaction signing
 
-### High Level api
+#### High Level api
 - To build and submit
-    -  Payment transaction
-    - Token Minting and token transfer transaction
+  -  Payment transaction
+  - Token Minting and token transfer transaction
 
-### Composable Functions
+#### Composable Functions
 - To build and submit
-    - Payment transaction
-    - Token Minting and token transfer
-    - Plutus smart contract call
-    - Token minting with Plutus contract
+  - Payment transaction
+  - Token Minting and token transfer
+  - Plutus smart contract call
+  - Token minting with Plutus contract
 
 [Examples with Composable Functions](https://github.com/bloxbean/cardano-client-examples/tree/main/src/main/java/com/bloxbean/cardano/client/examples/function)
+
+#### CIP Implementations
+- [CIP20 - Transaction Message/Comment metada](https://cips.cardano.org/cips/cip20/)
+- [CIP25 - NFT Metadata Standard](https://cips.cardano.org/cips/cip25/)
+- [CIP8  - Message Signing](https://cips.cardano.org/cips/cip8/)
+- [CIP30  - dApp signData & verify](https://cips.cardano.org/cips/cip30/)
 
 #### Metadata Builder
 - Helper to build Metadata
@@ -60,18 +67,18 @@ The library also provides integration with Cardano node through different backen
 Out of box, the library currently supports integration with following providers through the Backend api.
 
 - [Blockfrost](https://blockfrost.io)
-    - **Module :** cardano-client-backend-blockfrost [README](https://github.com/bloxbean/cardano-client-lib/blob/master/backend-modules/blockfrost/README.md)
-    - **Status :** Stable
+  - **Module :** cardano-client-backend-blockfrost [README](backend-modules/blockfrost/README.md)
+  - **Status :** Stable
 - [Koios](https://www.koios.rest/)
-    - **Module :** cardano-client-backend-koios [README](https://github.com/bloxbean/cardano-client-lib/blob/master/backend-modules/koios/README.md)
-    - **Status :** Beta
+  - **Module :** cardano-client-backend-koios [README](backend-modules/koios/README.md)
+  - **Status :** Beta
 - [Ogmios](https://ogmios.dev/)
-    - **Module :** cardano-client-backend-koios [README](https://github.com/bloxbean/cardano-client-lib/blob/master/backend-modules/ogmios/README.md)
-    - **Status :** Experimental
-    - **Supported Apis :** submitTransaction, evaluateTx
+  - **Module :** cardano-client-backend-koios [README](backend-modules/ogmios/README.md)
+  - **Status :** Experimental
+  - **Supported Apis :** submitTransaction, evaluateTx
 - [cardano-graphql](https://github.com/input-output-hk/cardano-graphql)
-    - **Module :** cardano-client-backend-gql [README](https://github.com/bloxbean/cardano-client-lib/blob/master/backend-modules/cardano-graphql/README.md)
-    - **Status :** Deprecated
+  - **Module :** cardano-client-backend-gql [README](backend-modules/cardano-graphql/README.md)
+  - **Status :** Deprecated
 
 **Following Backend apis are currently available**
 - TransactionService (Submit transaction, Get transaction, Evaluate ExUnits for Script Txn)

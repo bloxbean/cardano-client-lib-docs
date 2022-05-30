@@ -1,4 +1,5 @@
 # Build
+---
 
 ```
 git clone https://github.com/bloxbean/cardano-client-lib.git
@@ -8,6 +9,7 @@ export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8
 ```
 
 # Run Integration Tests
+---
 
 ```
 export BF_PROJECT_ID=<Blockfrost Project Id>

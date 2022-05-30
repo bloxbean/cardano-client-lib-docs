@@ -1,4 +1,14 @@
+# GitHub Sponsors :sparkling_heart:
+---
+
+<p align="center">
+  <a href="https://github.com/blockfrost"><img src="https://avatars.githubusercontent.com/u/70073210?s=45&v=4" width=45 height=45 /></a>
+  <a href="https://github.com/KtorZ"><img src="https://avatars.githubusercontent.com/u/5680256?s=45&v=4" width=45 height=45 /></a>
+</p>
+
+
 # Support this project
+---
 
 **If this project helps you reduce time to develop on Cardano or if you just want to support this project :-**
 

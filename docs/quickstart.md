@@ -1,3 +1,6 @@
+# Quickstart
+---
+
 For maven and gradle dependencies, please check the [dependencies](/dependencies) section.
 
 ### Account API Usage
@@ -17,7 +20,7 @@ Account account = new Account(Networks.testnet());  //Create a Testnet account
 ```
 String baseAddress = account.baseAddress();  //Base address at index=0
 
-String enterpriseAddress = account.enterpriseAddress();  //Enterprise address at index = 0
+String enterpriseAddress = account.account.enterpriseAddress();  //Enterprise address at index = 0
 
 String mnemonic = account.mnemonic();  //Get Mnemonic
 ```
@@ -220,12 +223,3 @@ TransactionHelperService transactionHelperService = new TransactionHelperService
 //Get FeeCalculationService using the above TransactionHelperService
 FeeCalculationService feeCalculationService = backendService.getFeeCalculationService(transactionHelperService);
 ```
-
----
-
-##### If this project helps you reduce time to develop on Cardano or if you just want to support this project, you can delegate to our pool:
-
-[BLOXB](https://www.bloxbean.com/cardano-staking/)
-
-[Support this project](https://cardano-client.bloxbean.com/support-this-project)
-
